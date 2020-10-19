@@ -41,6 +41,7 @@ alias grhh='git reset HEAD --hard'
 alias gclean='git reset --hard && git clean -dfx'
 alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
 
+alisa showOrigin='git remote show origin'
 
 #Laravel ALias
 alias pa='php artisan'
