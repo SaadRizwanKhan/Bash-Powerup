@@ -52,6 +52,9 @@ alias pamc='php artisan make:controller'
 alias pammig='php artisan make:migration'
 alias migrate='php artisan migrate'
 alias migrateF='php artisan migrate:refresh'
+alias c1='php artisan cache:clear'
+alias c2='php artisan view:clear'
+alias c3='php artisan config:clear'
 
 #Laravel Blueprint
 alias pabbuild='php artisan blueprint:build'
