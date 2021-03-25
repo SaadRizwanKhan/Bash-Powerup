@@ -41,13 +41,13 @@ alias grhh='git reset HEAD --hard'
 alias gclean='git reset --hard && git clean -dfx'
 alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
 
-alisa showOrigin='git remote show origin'
+alias showOrigin='git remote show origin'
 
 #Laravel ALias
 alias pa='php artisan'
 alias pakg='php artisan key:generate'
 alias pas='php artisan serve'
-alias pammod='php artisan make:model'
+alias pamm='php artisan make:model'
 alias pamc='php artisan make:controller'
 alias pammig='php artisan make:migration'
 alias migrate='php artisan migrate'
@@ -59,3 +59,7 @@ alias c3='php artisan config:clear'
 #Laravel Blueprint
 alias pabbuild='php artisan blueprint:build'
 alias paberase='php artisan blueprint:erase'
+
+
+#Laravel Livewire
+alias newcomponent='php artisan make:livewire'
