@@ -55,6 +55,8 @@ alias migrateF='php artisan migrate:refresh'
 alias c1='php artisan cache:clear'
 alias c2='php artisan view:clear'
 alias c3='php artisan config:clear'
+alias makeenv='cp .env.example .env'
+alias envKey='php artisan key:generate'
 
 #Laravel Blueprint
 alias pabbuild='php artisan blueprint:build'
